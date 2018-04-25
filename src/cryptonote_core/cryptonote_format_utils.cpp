@@ -958,6 +958,11 @@ namespace cryptonote
     case BLOCK_MAJOR_VERSION_2: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
     case BLOCK_MAJOR_VERSION_3: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
  case BLOCK_MAJOR_VERSION_4: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
+ case BLOCK_MAJOR_VERSION_5: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
+ case BLOCK_MAJOR_VERSION_6: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
+ case BLOCK_MAJOR_VERSION_7: return check_proof_of_work_v2(bl, current_diffic, proof_of_work);
+
+
 
     }
 
